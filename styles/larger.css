@@ -1,0 +1,83 @@
+@media (min-width: 40rem) {
+
+    @media (min-width: 40rem) {
+  .intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .profile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
+
+   .about,
+  .profile {
+    margin: 0;
+  }
+
+  main {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .about {
+    grid-column: 1 / 2;
+  }
+
+  .profile {
+    grid-column: 2 / 3;
+    text-align: center;
+  }
+
+  .profile img {
+    max-width: 300px;
+  } 
+  /* Footer layout for large screens */
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    text-align: left;
+  }
+
+  footer .social {
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+
+  footer .info {
+    text-align: center;
+  }
+
+  footer .modified {
+    text-align: right;
+  }
+
+  /* Navigation for large screens */
+  #menuBtn {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    width: auto;
+  }
+
+  nav a {
+    border: none;
+  }
+
+  /* Courses grid for large screens */
+  #courses {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+

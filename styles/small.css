@@ -1,0 +1,188 @@
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background-color: #f8f8f8;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2933;
+  color: #ffffff;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer .social img {
+  width: 32px;
+  height: 32px;
+}
+
+footer a {
+  display: inline-block;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #1f2933;
+  color: white;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  width: 32px;
+  height: auto;
+}
+
+#menuBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+  background-color: #1f2933;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #374151;
+}
+
+nav.open {
+  display: flex;
+}
+
+/* ===== Courses Section ===== */
+
+.course-filters {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.course-filters button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #2c3e50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.course-filters button:hover {
+  background-color: #1a252f;
+}
+
+#courses {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.course-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.course-card h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.course-card.completed {
+  background-color: #e6f7e6;
+  border-color: #2ecc71;
+}
+
+.total-credits {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* ===== Main Layout ===== */
+
+main {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main h1 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+section {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  margin-bottom: 0.5rem;
+  color: #1f2933;
+}
+
+section p {
+  color: #333;
+}
+
+.profile img {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+
