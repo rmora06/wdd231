@@ -1,0 +1,116 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+/* Header & Nav */
+header {
+  background-color: #1f2933;
+  color: white;
+  padding: 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+main {
+  padding: 1rem;
+}
+
+.view-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.view-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #1f2933;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.view-buttons button:hover {
+  background-color: #374151;
+}
+
+/* Members container */
+#members {
+  gap: 1rem;
+}
+
+/* Grid View (default) */
+#members.grid-view {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* List View */
+#members.list-view {
+  display: block;
+}
+
+#members.list-view .member-card {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* Cards */
+.member-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.member-card img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0;
+}
+
+.member-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #1f2933;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2933;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

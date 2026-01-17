@@ -1,0 +1,34 @@
+@media (min-width: 40rem) {
+  nav {
+    justify-content: flex-end;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Grid view on large screens */
+  #members.grid-view {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  /* List view layout */
+  #members.list-view .member-card {
+    grid-template-columns: 200px 1fr;
+    gap: 1rem;
+    text-align: left;
+    align-items: center;
+  }
+
+  #members.list-view img {
+    max-width: 180px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Chamber of Commerce Directory">
+  <meta name="author" content="Robert Mora">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber Directory</title>
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+
+<header>
+  <h1>My City Chamber</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Directory</a>
+    <a href="#">Join</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Business Directory</h2>
+
+  <div class="view-buttons">
+    <button id="grid">Grid</button>
+    <button id="list">List</button>
+  </div>
+
+  <section id="members" class="grid-view"></section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Robert Mora | WDD 231</p>
+  <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

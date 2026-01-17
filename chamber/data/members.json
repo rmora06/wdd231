@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Mora Tech",
+    "address": "123 Main St",
+    "phone": "809-555-1234",
+    "website": "https://example.com",
+    "image": "mora-tech.jpg",
+    "level": 3
+  },
+  {
+    "name": "Island Café",
+    "address": "45 Ocean Ave",
+    "phone": "809-555-5678",
+    "website": "https://example.com",
+    "image": "island-cafe.jpg",
+    "level": 2
+  },
+  {
+    "name": "Island Café",
+    "address": "45 Ocean Ave",
+    "phone": "809-555-5678",
+    "website": "https://example.com",
+    "image": "island-cafe.jpg",
+    "level": 2
+  },
+  {
+    "name": "Island Café",
+    "address": "45 Ocean Ave",
+    "phone": "809-555-5678",
+    "website": "https://example.com",
+    "image": "island-cafe.jpg",
+    "level": 2
+  },
+  {
+    "name": "Island Café",
+    "address": "45 Ocean Ave",
+    "phone": "809-555-5678",
+    "website": "https://example.com",
+    "image": "island-cafe.jpg",
+    "level": 2
+  },
+  {
+    "name": "Island Café",
+    "address": "45 Ocean Ave",
+    "phone": "809-555-5678",
+    "website": "https://example.com",
+    "image": "island-cafe.jpg",
+    "level": 2
+  },
+  {
+    "name": "Island Café",
+    "address": "45 Ocean Ave",
+    "phone": "809-555-5678",
+    "website": "https://example.com",
+    "image": "island-cafe.jpg",
+    "level": 2
+  }
+]
