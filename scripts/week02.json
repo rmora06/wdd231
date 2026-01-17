@@ -1,0 +1,23 @@
+{
+  "family_name": "Mora",
+  "move_in_date": "2027-06-05",
+  "number_of_people": 3,
+  "visited_by_bishopric": true,
+  "family_members": [
+    {
+      "name": "Robert Mora",
+      "gender": "Male",
+      "birthdate": "2003-06-06"
+    },
+    {
+      "name": "Wilmy Mora",
+      "gender": "Female",
+      "birthdate": "1999-07-09"
+    },
+    {
+      "name": "Zoe Mora",
+      "gender": "Female",
+      "birthdate": "2028-07-06"
+    }
+  ]
+}
