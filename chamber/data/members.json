@@ -1,58 +1,66 @@
 [
   {
-    "name": "Mora Tech",
+    "name": "Rice Krispies",
     "address": "123 Main St",
     "phone": "809-555-1234",
     "website": "https://example.com",
-    "image": "mora-tech.jpg",
+    "image": "krispies.jpg",
     "level": 3
   },
   {
-    "name": "Island Café",
+    "name": "Froot Loops",
     "address": "45 Ocean Ave",
     "phone": "809-555-5678",
     "website": "https://example.com",
-    "image": "island-cafe.jpg",
+    "image": "loops.jpg",
     "level": 2
   },
   {
-    "name": "Island Café",
+    "name": "Kelloggs Corn Flakes",
     "address": "45 Ocean Ave",
     "phone": "809-555-5678",
     "website": "https://example.com",
-    "image": "island-cafe.jpg",
+    "image": "cornflakes.avif",
     "level": 2
   },
   {
-    "name": "Island Café",
+    "name": "Choco Krispies",
     "address": "45 Ocean Ave",
     "phone": "809-555-5678",
     "website": "https://example.com",
-    "image": "island-cafe.jpg",
+    "image": "chrispies.avif",
     "level": 2
   },
   {
-    "name": "Island Café",
+    "name": "Kellogs Kraves",
     "address": "45 Ocean Ave",
     "phone": "809-555-5678",
     "website": "https://example.com",
-    "image": "island-cafe.jpg",
+    "image": "krave.png",
     "level": 2
   },
   {
-    "name": "Island Café",
+    "name": "Oaties",
     "address": "45 Ocean Ave",
     "phone": "809-555-5678",
     "website": "https://example.com",
-    "image": "island-cafe.jpg",
+    "image": "Oaties.avif",
     "level": 2
   },
   {
-    "name": "Island Café",
+    "name": "All-Brans",
     "address": "45 Ocean Ave",
     "phone": "809-555-5678",
     "website": "https://example.com",
-    "image": "island-cafe.jpg",
+    "image": "bran.avif",
+    "level": 2
+  },
+  {
+    "name": "Smacks",
+    "address": "45 Ocean Ave",
+    "phone": "809-555-5678",
+    "website": "https://example.com",
+    "image": "smacks.avif",
     "level": 2
   }
 ]
