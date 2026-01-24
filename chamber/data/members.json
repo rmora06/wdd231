@@ -21,7 +21,7 @@
     "phone": "809-555-5678",
     "website": "https://example.com",
     "image": "cornflakes.avif",
-    "level": 2
+    "level": 3
   },
   {
     "name": "Choco Krispies",
@@ -29,7 +29,7 @@
     "phone": "809-555-5678",
     "website": "https://example.com",
     "image": "chrispies.avif",
-    "level": 2
+    "level": 1
   },
   {
     "name": "Kellogs Kraves",
@@ -37,7 +37,7 @@
     "phone": "809-555-5678",
     "website": "https://example.com",
     "image": "krave.png",
-    "level": 2
+    "level": 1
   },
   {
     "name": "Oaties",
@@ -45,7 +45,7 @@
     "phone": "809-555-5678",
     "website": "https://example.com",
     "image": "oaties.avif",
-    "level": 2
+    "level": 1
   },
   {
     "name": "All-Brans",
@@ -53,7 +53,7 @@
     "phone": "809-555-5678",
     "website": "https://example.com",
     "image": "bran.avif",
-    "level": 2
+    "level": 1
   },
   {
     "name": "Smacks",

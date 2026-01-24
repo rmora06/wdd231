@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Chamber of Commerce Directory
+  | Our local organization of businesses that work together to strengthen the business interests of the group.">
+  <meta name="author" content="Robert Mora">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directory | WDD 231</title>
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+
+  <!-- <script src="scripts/directory.js" defer></script> -->
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/spotlight.js" defer></script>
+
+  <meta property="og:title" content="Chamber of Commerce Directory">
+  <meta property="og:description" content="Chamber of Commerce Directory
+  | Our local organization of businesses that work together to strengthen the business interests of the group">
+  <meta property="og:image" content="https://rmora06.github.io/wdd231/images/profile_pic.jpg">
+  <meta property="og:url" content="https://rmora06.github.io/wdd231/chamber/directory.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <h1>Kellogs Family</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="directory.html">Directory</a>
+    <a href="#">Join</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <picture>
+      <img src="images/hero.png" alt="City skyline representing the Chamber of Commerce">
+    </picture>
+
+    <div class="hero-content">
+      <h1>Welcome to the Chamber of Kellogs</h1>
+      <p>Connecting businesses. Strengthening our community.</p>
+      <a href="#" class="cta-button">Join the Chamber</a>
+    </div>
+  </section>
+
+  <!-- Current Events -->
+  <section class="events">
+    <h2>Current Events</h2>
+    <ul>
+      <li><strong>Lottery NBA Boucher:</strong> March 15, 6:00 PM</li>
+      <li><strong>Small Business Workshop:</strong> March 22, 10:00 AM</li>
+      <li><strong>Community Clean-Up Day:</strong> April 5</li>
+    </ul>
+  </section>
+
+  <!-- Weather -->
+  <section class="weather">
+  <h2>Weather</h2>
+
+  <div class="current-weather">
+    <p class="temperature">
+      <span id="current-temp"></span>
+    </p>
+
+    <figure>
+      <img id="weather-icon" src="" alt="">
+      <figcaption></figcaption>
+    </figure>
+  </div>
+
+  <div class="forecast">
+    <h3>3-Day Forecast</h3>
+    <ul id="forecast-list"></ul>
+  </div>
+</section>
+
+  <!-- Company Spotlights -->
+  <section class="spotlights">
+  <h2>Member Spotlights</h2>
+  <div class="spotlight-cards" id="spotlight-container"></div>
+</section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Robert Mora | WDD 231</p>
+  <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

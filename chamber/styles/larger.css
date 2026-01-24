@@ -31,4 +31,62 @@
     align-items: center;
     text-align: left;
   }
+
+   /* ---------- HEADER ALIGNMENT ---------- */
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    position: relative;
+  }
+
+  .hero-content {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    max-width: 400px;
+    text-align: left;
+    border-radius: 6px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  /* ---------- EVENTS + WEATHER GRID ---------- */
+  .events-weather {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+  }
+
+  /* ---------- SPOTLIGHTS ---------- */
+  .spotlight-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .forecast h3 {
+    grid-column: span 2;
+    text-align: center;
+  }
+
+  .spotlight-cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
 }
