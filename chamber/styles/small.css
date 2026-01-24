@@ -152,6 +152,10 @@ main section h2 {
   margin-bottom: 0.5rem;
 }
 
+.hero-content h2 {
+  color: #fff;
+}
+
 .hero-content p {
   margin-bottom: 1rem;
 }
