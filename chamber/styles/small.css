@@ -1,10 +1,11 @@
-/* Reset básico */
+/* ---------- RESET ---------- */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* ---------- BASE ---------- */
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -12,7 +13,7 @@ body {
   color: #222;
 }
 
-/* Header & Nav */
+/* ---------- HEADER & NAV ---------- */
 header {
   background-color: #1f2933;
   color: white;
@@ -33,7 +34,6 @@ nav {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 nav a {
@@ -43,15 +43,28 @@ nav a {
 }
 
 nav a:hover {
-  /* text-decoration: underline; */
   background-color: #374151;
 }
 
-/* Main */
+/* ---------- MAIN ---------- */
 main {
   padding: 1rem;
 }
 
+main section {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+}
+
+main section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #1f2933;
+}
+
+/* ---------- VIEW BUTTONS ---------- */
 .view-buttons {
   display: flex;
   justify-content: center;
@@ -72,18 +85,16 @@ main {
   background-color: #374151;
 }
 
-/* Members container */
+/* ---------- MEMBERS ---------- */
 #members {
   gap: 1rem;
 }
 
-/* Grid View (default) */
 #members.grid-view {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-/* List View */
 #members.list-view {
   display: block;
 }
@@ -93,7 +104,7 @@ main {
   grid-template-columns: 1fr;
 }
 
-/* Cards */
+/* ---------- MEMBER CARD ---------- */
 .member-card {
   background: white;
   padding: 1rem;
@@ -115,16 +126,7 @@ main {
   font-weight: bold;
 }
 
-/* Footer */
-footer {
-  background-color: #1f2933;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-}
-
-/* ---------- HERO SECTION ---------- */
+/* ---------- HERO ---------- */
 .hero {
   position: relative;
   margin-bottom: 2rem;
@@ -168,24 +170,9 @@ footer {
   background-color: #f59e0b;
 }
 
-/* ---------- SECTIONS GENERAL ---------- */
-main section {
-  background-color: white;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  border-radius: 6px;
-}
-
-main section h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-  color: #1f2933;
-}
-
 /* ---------- EVENTS ---------- */
 .events ul {
   list-style: none;
-  padding: 0;
 }
 
 .events li {
@@ -208,6 +195,15 @@ main section h2 {
   margin-top: 0.5rem;
 }
 
+.forecast ul {
+  list-style: none;
+  margin-top: 0.5rem;
+}
+
+.forecast li {
+  padding: 0.3rem 0;
+}
+
 /* ---------- SPOTLIGHTS ---------- */
 .spotlight-cards {
   display: grid;
@@ -216,6 +212,7 @@ main section h2 {
 }
 
 .spotlight {
+  background: white;
   border: 1px solid #ddd;
   border-radius: 6px;
   padding: 1rem;
@@ -239,44 +236,13 @@ main section h2 {
   font-weight: bold;
 }
 
-.weather {
-  background: white;
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #1f2933;
+  color: white;
+  text-align: center;
   padding: 1rem;
-  border-radius: 6px;
-  margin: 1rem 0;
+  margin-top: 2rem;
 }
 
-.current-weather {
-  text-align: center;
-}
-
-.forecast ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 0.5rem;
-}
-
-.forecast li {
-  padding: 0.3rem 0;
-  text-align: center;
-}
-
-.spotlight-cards {
-  display: grid;
-  gap: 1rem;
-}
-
-.spotlight {
-  background: white;
-  padding: 1rem;
-  border-radius: 6px;
-  text-align: center;
-  border: 1px solid #ddd;
-}
-
-.spotlight img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 0.5rem;
-}
 
