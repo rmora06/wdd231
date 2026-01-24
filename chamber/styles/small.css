@@ -139,7 +139,8 @@ main section h2 {
 }
 
 .hero-content {
-  background-color: rgba(31, 41, 51, 0.9);
+  /* background-color: rgba(31, 41, 51, 0.9); */
+  background-color: #1f2933;
   color: white;
   padding: 1rem;
   text-align: center;
