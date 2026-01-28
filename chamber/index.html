@@ -16,6 +16,8 @@
   <!-- <script src="scripts/directory.js" defer></script> -->
   <script src="scripts/weather.js" defer></script>
   <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
+
 
   <meta property="og:title" content="Chamber of Commerce Directory">
   <meta property="og:description" content="Chamber of Commerce Directory
@@ -32,7 +34,10 @@
 
 <header>
   <h1>Kellogs Family</h1>
-  <nav>
+  <button id="menu-button" aria-label="Toggle navigation">
+    ☰
+  </button>
+  <nav id="primary-nav">
     <a href="#">Home</a>
     <a href="directory.html">Directory</a>
     <a href="#">Join</a>
@@ -44,7 +49,7 @@
   <!-- Hero Section -->
   <section class="hero">
     <picture>
-      <img src="images/hero.png" alt="City skyline representing the Chamber of Commerce">
+      <img src="images/hero.webp" alt="City skyline representing the Chamber of Commerce">
     </picture>
 
     <div class="hero-content">

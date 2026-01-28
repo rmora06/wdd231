@@ -19,14 +19,15 @@ header {
   color: white;
   padding: 1rem;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
+
 header h1 {
-  margin: 0.5rem;
-  text-align: center;
+  margin: 0;
+  font-size: 1.4rem;
 }
 
 nav {
@@ -249,5 +250,29 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+/* ---------- HAMBURGER MENU (MOBILE) ---------- */
+
+#menu-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+#primary-nav {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+#primary-nav.open {
+  display: flex;
+}
+
 
 
