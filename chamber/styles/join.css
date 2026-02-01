@@ -83,7 +83,7 @@
   text-align: center;
 }
 
-.card h3 {
+.card h2 {
   margin-bottom: 0.5rem;
 }
 
@@ -111,7 +111,7 @@ dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.55);
 }
 
-dialog h3 {
+dialog h2 {
   margin-top: 0;
   margin-bottom: 0.75rem;
   font-size: 1.4rem;
