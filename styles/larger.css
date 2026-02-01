@@ -79,5 +79,14 @@
   #courses {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  dialog {
+  animation: fadeIn .3s ease;;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(.9);}
+  to {opacity: 1; transform: scale(1);};
+}
 }
 

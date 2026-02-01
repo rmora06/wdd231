@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Chamber of Commerce Directory
+  | Our local organization of businesses that work together to strengthen the business interests of the group.">
+  <meta name="author" content="Robert Mora">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directory | WDD 231</title>
+
+  <link rel="icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/join.css">
+
+
+  <!-- <script src="scripts/directory.js" defer></script> -->
+  <!-- <script src="scripts/weather.js" defer></script> -->
+  <script src="scripts/spotlight.js" defer></script>
+  <script src="scripts/join.js" defer></script>
+  <script src="scripts/menu.js" defer></script>
+
+
+
+  <meta property="og:title" content="Chamber of Commerce Directory">
+  <meta property="og:description" content="Chamber of Commerce Directory
+  | Our local organization of businesses that work together to strengthen the business interests of the group">
+  <meta property="og:image" content="https://rmora06.github.io/wdd231/images/profile_pic.jpg">
+  <meta property="og:url" content="https://rmora06.github.io/wdd231/chamber/directory.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<header>
+  <h1>Kellogs Family</h1>
+  <button id="menu-button" aria-label="Toggle navigation">
+    ☰
+  </button>
+  <nav id="primary-nav">
+    <a href="index.html">Home</a>
+    <a href="directory.html">Directory</a>
+    <a href="#">Join</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+    <div class="join-container">
+    <form method="get" action="thanks.html" class="join-form">
+  
+  <label>
+    First Name
+    <input type="text" name="fname" required title="First Name" autocomplete="given-name">
+  </label>
+
+  <label>
+    Last Name
+    <input type="text" name="lname" required title="Last Name" autocomplete="family-name">
+  </label>
+
+  <label>
+    Organizational Title
+    <input
+      type="text"
+      name="orgtitle"
+      title="Organizational Title"
+      autocomplete="organization-title"
+      pattern="[A-Za-z\s\-]{7,}">
+  </label>
+
+  <label>
+    Email
+    <input
+      type="email"
+      name="email"
+      required
+      title="Email Address"
+      autocomplete="email"
+      placeholder="example@email.com">
+  </label>
+
+  <label>
+    Mobile Phone
+    <input
+      type="tel"
+      name="phone"
+      required
+      title="Mobile Phone"
+      autocomplete="tel">
+  </label>
+
+  <label>
+    Organization Name
+    <input
+      type="text"
+      name="organization"
+      required
+      title="Organization Name"
+      autocomplete="organization">
+  </label>
+
+  <label>
+    Membership Level
+    <select name="membership" required title="Membership Level">
+      <option value="">Select a level</option>
+      <option value="np">NP Membership</option>
+      <option value="bronze">Bronze Membership</option>
+      <option value="silver">Silver Membership</option>
+      <option value="gold">Gold Membership</option>
+    </select>
+  </label>
+
+  <label>
+    Business Description
+    <textarea name="description" title="Business Description"></textarea>
+  </label>
+
+  <input type="hidden" name="timestamp" id="timestamp">
+
+  <input type="submit" value="Join the Chamber">
+</form>
+
+<section class="membership-cards">
+  <div class="card animate">
+    <h3>NP Membership</h3>
+    <a href="#" data-modal="npModal">View Benefits</a>
+  </div>
+
+  <div class="card animate">
+    <h3>Bronze Membership</h3>
+    <a href="#" data-modal="bronzeModal">View Benefits</a>
+  </div>
+
+  <div class="card animate">
+    <h3>Silver Membership</h3>
+    <a href="#" data-modal="silverModal">View Benefits</a>
+  </div>
+
+  <div class="card animate">
+    <h3>Gold Membership</h3>
+    <a href="#" data-modal="goldModal">View Benefits</a>
+  </div>
+</section>
+
+<dialog id="npModal">
+  <h3>NP Membership Benefits</h3>
+  <p>No fee. Ideal for non-profit organizations.</p>
+  <button type="button" class="close-modal">Close</button>
+</dialog>
+
+<dialog id="bronzeModal">
+  <h3>Bronze Membership Benefits</h3>
+  <p>Basic advertising and event access.</p>
+  <button type="button" class="close-modal">Close</button>
+</dialog>
+
+<dialog id="silverModal">
+  <h3>Silver Membership Benefits</h3>
+  <p>Training opportunities and discounts.</p>
+  <button type="button" class="close-modal">Close</button>
+</dialog>
+
+<dialog id="goldModal">
+  <h3>Gold Membership Benefits</h3>
+  <p>Premium exposure and exclusive benefits.</p>
+  <button type="button" class="close-modal">Close</button>
+</dialog>
+</div>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Robert Mora | WDD 231</p>
+  <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

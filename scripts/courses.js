@@ -21,7 +21,12 @@ function displayCourses(list) {
       <p>${course.credits} credits</p>
     `;
 
+    card.addEventListener("click", () => {
+    displayCourseDetails(course);
+  });
+
     container.appendChild(card);
+    
   });
 }
 
