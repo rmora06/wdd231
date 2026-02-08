@@ -104,4 +104,33 @@
     align-items: start;
   }
 
+  .discover-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "card1 card1 card2 card3"
+    "card4 card5 card2 card6"
+    "card7 card8 card8 card6";
+  gap: 1.5rem;
+}
+
+.card1 { grid-area: card1; }
+.card2 { grid-area: card2; }
+.card3 { grid-area: card3; }
+.card4 { grid-area: card4; }
+.card5 { grid-area: card5; }
+.card6 { grid-area: card6; }
+.card7 { grid-area: card7; }
+.card8 { grid-area: card8; }
+
+/* ---------- IMAGE HOVER EFFECT (DESKTOP ONLY) ---------- */
+.discover-card img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.discover-card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
 }

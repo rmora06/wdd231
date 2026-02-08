@@ -6,15 +6,17 @@
   | Our local organization of businesses that work together to strengthen the business interests of the group.">
   <meta name="author" content="Robert Mora">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Directory | WDD 231</title>
+  <title>Discover | WDD 231</title>
 
   <link rel="icon" href="images/favicon.ico">
 
+  <link rel="stylesheet" href="styles/discover.css">
   <link rel="stylesheet" href="styles/small.css">
   <link rel="stylesheet" href="styles/larger.css">
-
-  <script src="scripts/directory.js" defer></script>
+ 
+  <script src="scripts/discover.js" type="module"></script>
   <script src="scripts/menu.js" defer></script>
+  <script src="data/discover.mjs" type="module"></script>
 
 
   <meta property="og:title" content="Chamber of Commerce Directory">
@@ -33,25 +35,27 @@
 <header>
   <h1>Kellogs Family</h1>
   <button id="menu-button" aria-label="Toggle navigation">
-     ☰
+    ☰
   </button>
   <nav id="primary-nav">
     <a href="index.html">Home</a>
-    <a href="#">Directory</a>
+    <a href="directory.html">Directory</a>
     <a href="join.html">Join</a>
-    <a href="discover.html">Contact</a>
+    <a href="#">Contact</a>
   </nav>
 </header>
 
 <main>
-  <h2>Our Members</h2>
 
-  <div class="view-buttons">
-    <button id="grid">Grid</button>
-    <button id="list">List</button>
-  </div>
+    <!-- VISITOR MESSAGE -->
+  <section id="visit-message" class="visit-message"></section>
 
-  <section id="members" class="grid-view"></section>
+  <!-- GRID CARDS -->
+  <section class="discover-grid">
+    <h2>Discover Our Area</h2>
+    <!-- 🔁 Cards se insertan aquí con JS -->
+  </section>
+
 </main>
 
 <footer>

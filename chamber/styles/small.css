@@ -275,4 +275,75 @@ footer {
 }
 
 
+.discover-grid {
+  display: grid;
+  grid-template-areas:
+    "card1"
+    "card2"
+    "card3"
+    "card4"
+    "card5"
+    "card6"
+    "card7"
+    "card8";
+  gap: 1rem;
+}
+
+.discover-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.discover-card h2 {
+  color: #1f2933;
+  margin-bottom: 0.5rem;
+}
+
+.discover-card figure {
+  margin: 0.5rem 0;
+}
+
+.discover-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.discover-card address {
+  font-style: normal;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  color: #374151;
+}
+
+.discover-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.discover-card button {
+  background-color: #1f2933;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.discover-card button:hover {
+  background-color: #374151;
+}
+
+.card1 { grid-area: card1; }
+.card2 { grid-area: card2; }
+.card3 { grid-area: card3; }
+.card4 { grid-area: card4; }
+.card5 { grid-area: card5; }
+.card6 { grid-area: card6; }
+.card7 { grid-area: card7; }
+.card8 { grid-area: card8; }
+
 
