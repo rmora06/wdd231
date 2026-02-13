@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mora’s Music | Artists</title>
+  <meta name="description" content="Explore the artists represented by Mora’s Music.">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <h1>Mora’s Music</h1>
+  <button id="menu-button" aria-label="Toggle Menu"></button>
+
+  <nav id="primary-nav">
+    <a href="index.html">Home</a>
+    <a href="artists.html" class="active">Artists</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section>
+    <h2>Our Artists</h2>
+    <div class="artists-grid"></div>
+  </section>
+
+</main>
+
+<!-- MODAL -->
+<div id="artist-modal" class="modal" role="dialog" aria-modal="true">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Mora’s Music</p>
+</footer>
+
+<script src="scripts/main.js"></script>
+<script src="scripts/artists.js"></script>
+
+</body>
+</html>

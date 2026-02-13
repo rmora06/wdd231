@@ -1,0 +1,16 @@
+@media (min-width: 64rem) {
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+   .artists-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}

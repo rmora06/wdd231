@@ -1,0 +1,42 @@
+@media (min-width: 40rem) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Navegación horizontal */
+  nav {
+    display: block;
+    width: auto;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  /* Grids */
+  .services-grid,
+  .artists-grid,
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* Hero layout */
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+  }
+
+}
