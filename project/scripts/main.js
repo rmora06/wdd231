@@ -15,7 +15,7 @@ if (menuButton && nav) {
 
 async function loadArtists() {
   try {
-    const response = await fetch("data/artists.json");
+    const response = await fetch("./data/artists.json");
 
     if (!response.ok) {
       throw new Error("Failed to fetch artists data");
