@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Jhonny Ventura",
+    "genre": "Merengue",
+    "image": "images/jhonny.webp",
+    "bio": "When we talk about the best Dominican singers, one name resonates powerfully: Johnny Ventura, the undisputed 'King of Merengue.' His influence not only shaped the history of this genre but also propelled it internationally, making it one of the most popular Latin rhythms in the world."
+  },
+  {
+    "name": "Milly Quezada",
+    "genre": "Merengue",
+    "image": "images/milly.webp",
+    "bio": "Milly Quezada's songs have captivated audiences across the globe. Tracks like 'La Mala Suerte,' 'Dile a Tu Novia,' 'Te Tengo Bajo Control,' 'No Te Apartes de Mí,' 'Para Darte Mi Vida,' and 'Vive' have become anthems of modern merengue, crossing borders and bringing Dominican rhythm to every corner of the planet."
+  },
+  {
+    "name": "Juan Luis Guerra",
+    "genre": "Merengue & Bachata",
+    "image": "images/luis.webp",
+    "bio": "Juan Luis Guerra's songs are pure poetry set to music. Tracks like 'Burbujas de Amor,' 'Bachata Rosa,' and 'Las Avispas' have become anthems of love and romance, winning hearts around the world."
+  },
+  {
+    "name": "RobertLove",
+    "genre": "Bachata & Merengue",
+    "image": "images/robertlove.webp",
+    "bio": "With his album 'Entre el Amor y el Desamor,' RobertLove creates music that makes you either dance or cry. His biggest hit is 'Me Perdí,' and he is currently the main artist of Mora’s Music."
+  },
+  {
+    "name": "Anthony Santos",
+    "genre": "Bachata",
+    "image": "images/anthony.webp",
+    "bio": "After leading Aventura, Anthony Santos helped revolutionize bachata and bring it to international stages. Songs like 'Obsesión' and 'Un Beso' became global anthems."
+  },
+  {
+    "name": "Fernando Villalona",
+    "genre": "Bachata",
+    "image": "images/fernando.webp",
+    "bio": "Fernando Villalona is a key figure in Dominican music history. His powerful voice and energetic performances helped elevate bachata and merengue internationally."
+  },
+  {
+    "name": "Hector Acosta",
+    "genre": "Merengue & Bachata",
+    "image": "images/torito.webp",
+    "bio": "Known as 'El Torito,' Hector Acosta is famous for his energetic performances and hits like 'Me Voy' and 'Sin Perdón,' which remain popular worldwide."
+  },
+  {
+    "name": "Romeo Santos",
+    "genre": "Bachata",
+    "image": "images/romeo.webp",
+    "bio": "After Aventura's breakup in 2011, Romeo Santos launched a successful solo career. His album 'Fórmula Vol. 1' broke sales records and solidified his place as a modern bachata icon."
+  },
+  {
+    "name": "July Mateo",
+    "genre": "Merengue",
+    "image": "images/mateo.webp",
+    "bio": "Known artistically as Rasputín, July Mateo was part of major orchestras in the 1980s and remains one of the most recognized interpreters of danceable merengue."
+  },
+  {
+    "name": "Miriam Cruz",
+    "genre": "Merengue",
+    "image": "images/miriam.webp",
+    "bio": "Known as 'The Diva of Merengue,' Miriam Cruz captivated audiences with her powerful voice and charismatic stage presence, becoming one of the genre's most influential figures."
+  },
+  {
+    "name": "Sergio Vargas",
+    "genre": "Bachata",
+    "image": "images/sergio.webp",
+    "bio": "Sergio Vargas is recognized for his raspy and powerful voice. His passionate performance style made him one of the most important Dominican singers of his generation."
+  },
+  {
+    "name": "Bonny Cepeda",
+    "genre": "Merengue",
+    "image": "images/bonny.webp",
+    "bio": "Bonny Cepeda is a Dominican singer, pianist, and composer with a career spanning over three decades. His influence extends across Latin America."
+  },
+  {
+    "name": "Jose Tamarez Mateo",
+    "genre": "Merengue",
+    "image": "images/joseito.webp",
+    "bio": "Popularly known as Joseíto Mateo, he began his artistic career in 1930 and became one of the most important figures in Dominican merengue history."
+  },
+  {
+    "name": "Shakira",
+    "genre": "Pop",
+    "image": "images/shakira.webp",
+    "bio": "Shakira took Latin pop to global heights by blending Colombian influences with reggae and pop elements, reaching number one on international charts."
+  },
+  {
+    "name": "Selena",
+    "genre": "Tex-Mex",
+    "image": "images/selena.webp",
+    "bio": "Known as the Queen of Tejano music, Selena helped bring regional Mexican sounds into the mainstream and became an icon of Latin music culture."
+  }
+]
